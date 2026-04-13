@@ -25,7 +25,7 @@ function LoginForm() {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefaul();
     setLoading(true);
     setError("");
     try {
@@ -149,9 +149,9 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
     }));
 
   // Auto-generate slug from title only when adding new (no existing slug)
-  useEffect(() => {
+  useEffec(() => {
     if (form.title && !initial.slug) {
-      set("slug", slugify(form.title));
+      se("slug", slugify(form.title));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [form.title]);
@@ -159,7 +159,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
   return (
     <form
       onSubmit={(e) => {
-        e.preventDefault();
+        e.preventDefaul();
         onSave(form);
       }}
       className="space-y-5"
@@ -169,7 +169,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
         <Field label="Job Title *" required>
           <input
             value={form.title}
-            onChange={(e) => set("title", e.target.value)}
+            onChange={(e) => se("title", e.target.value)}
             required
             className="field-input"
             placeholder="MPSC Rajyaseva 2026"
@@ -178,7 +178,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
         <Field label="Department *" required>
           <input
             value={form.department}
-            onChange={(e) => set("department", e.target.value)}
+            onChange={(e) => se("department", e.target.value)}
             required
             className="field-input"
           />
@@ -186,7 +186,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
         <Field label="Slug (Auto)">
           <input
             value={form.slug}
-            onChange={(e) => set("slug", e.target.value)}
+            onChange={(e) => se("slug", e.target.value)}
             className="field-input font-mono text-sm"
             placeholder="auto-generated"
           />
@@ -194,7 +194,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
         <Field label="Category">
           <select
             value={form.category}
-            onChange={(e) => set("category", e.target.value)}
+            onChange={(e) => se("category", e.target.value)}
             className="field-input"
           >
             {["MPSC", "UPSC", "Railway", "Bank", "Police", "SSC", "ZP", "NMK"].map(
@@ -208,21 +208,21 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
           <input
             type="number"
             value={form.posts}
-            onChange={(e) => set("posts", Number(e.target.value))}
+            onChange={(e) => se("posts", Number(e.target.value))}
             className="field-input"
           />
         </Field>
         <Field label="Location">
           <input
             value={form.location}
-            onChange={(e) => set("location", e.target.value)}
+            onChange={(e) => se("location", e.target.value)}
             className="field-input"
           />
         </Field>
         <Field label="Salary Range">
           <input
             value={form.salary}
-            onChange={(e) => set("salary", e.target.value)}
+            onChange={(e) => se("salary", e.target.value)}
             className="field-input"
             placeholder="₹41,800 – ₹1,32,300"
           />
@@ -230,7 +230,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
         <Field label="Qualification">
           <input
             value={form.qualification}
-            onChange={(e) => set("qualification", e.target.value)}
+            onChange={(e) => se("qualification", e.target.value)}
             className="field-input"
           />
         </Field>
@@ -238,7 +238,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
           <input
             type="number"
             value={form.ageMin}
-            onChange={(e) => set("ageMin", Number(e.target.value))}
+            onChange={(e) => se("ageMin", Number(e.target.value))}
             className="field-input"
           />
         </Field>
@@ -246,7 +246,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
           <input
             type="number"
             value={form.ageMax}
-            onChange={(e) => set("ageMax", Number(e.target.value))}
+            onChange={(e) => se("ageMax", Number(e.target.value))}
             className="field-input"
           />
         </Field>
@@ -297,7 +297,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
           <input
             type="url"
             value={form.applyLink}
-            onChange={(e) => set("applyLink", e.target.value)}
+            onChange={(e) => se("applyLink", e.target.value)}
             className="field-input"
             placeholder="https://"
           />
@@ -306,7 +306,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
           <input
             type="url"
             value={form.officialLink}
-            onChange={(e) => set("officialLink", e.target.value)}
+            onChange={(e) => se("officialLink", e.target.value)}
             className="field-input"
             placeholder="https://"
           />
@@ -317,7 +317,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
       <Field label="Description (Marathi)">
         <textarea
           value={form.description}
-          onChange={(e) => set("description", e.target.value)}
+          onChange={(e) => se("description", e.target.value)}
           rows={3}
           className="field-input"
         />
@@ -325,7 +325,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
       <Field label="Description (English)">
         <textarea
           value={form.descriptionEn}
-          onChange={(e) => set("descriptionEn", e.target.value)}
+          onChange={(e) => se("descriptionEn", e.target.value)}
           rows={3}
           className="field-input"
         />
@@ -342,7 +342,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
             <input
               type="checkbox"
               checked={form[key]}
-              onChange={(e) => set(key, e.target.checked)}
+              onChange={(e) => se(key, e.target.checked)}
               className="w-4 h-4 accent-primary-600"
             />
             <span className="text-sm font-medium text-gray-700">{label}</span>
@@ -364,7 +364,7 @@ function JobForm({ initial = emptyJob, onSave, onCancel, loading }) {
 }
 
 // ─── Main Admin Client ─────────────────────────────────────────────────────
-export default function AdminClient() {
+export default function AdminClien() {
   // ── Auth state: undefined = loading, null = logged out, object = logged in
   const [user, setUser] = useState(undefined);
 
@@ -383,13 +383,13 @@ export default function AdminClient() {
   const [toast, setToast] = useState(null);
 
   // ── Subscribe to Firebase auth
-  useEffect(() => {
+  useEffec(() => {
     const unsub = onAuth((u) => setUser(u ?? null));
     return unsub;
   }, []);
 
   // ── Load all collections whenever user logs in
-  useEffect(() => {
+  useEffec(() => {
     if (!user) return;
 
     const fetchData = async () => {
@@ -406,7 +406,7 @@ export default function AdminClient() {
         setBlogs(b);
         setAdmitCards(a);
       } catch (err) {
-        showToast("Failed to load data: " + err.message, "error");
+        showToas("Failed to load data: " + err.message, "error");
       } finally {
         setDataLoading(false);
       }
@@ -430,7 +430,7 @@ export default function AdminClient() {
       setBlogs(b);
       setAdmitCards(a);
     } catch (err) {
-      showToast("Failed to reload data: " + err.message, "error");
+      showToas("Failed to reload data: " + err.message, "error");
     } finally {
       setDataLoading(false);
     }
@@ -438,8 +438,8 @@ export default function AdminClient() {
 
   // ── Toast helper
   const showToast = (msg, type = "success") => {
-    setToast({ msg, type });
-    setTimeout(() => setToast(null), 3000);
+    setToas({ msg, type });
+    setTimeou(() => setToas(null), 3000);
   };
 
   // ── Save job (add or edit)
@@ -448,16 +448,16 @@ export default function AdminClient() {
     try {
       if (editItem && editItem.id) {
         await update(COLLECTIONS.JOBS, editItem.id, form);
-        showToast("Job updated successfully!");
+        showToas("Job updated successfully!");
       } else {
         await create(COLLECTIONS.JOBS, form);
-        showToast("Job added successfully!");
+        showToas("Job added successfully!");
       }
       setFormMode(null);
       setEditItem(null);
       await reloadData();
     } catch (err) {
-      showToast("Error saving job: " + err.message, "error");
+      showToas("Error saving job: " + err.message, "error");
     } finally {
       setSaving(false);
     }
@@ -468,10 +468,10 @@ export default function AdminClient() {
     if (!window.confirm(`Delete "${name}"?`)) return;
     try {
       await remove(collection, id);
-      showToast("Deleted successfully!");
+      showToas("Deleted successfully!");
       await reloadData();
     } catch (err) {
-      showToast("Error: " + err.message, "error");
+      showToas("Error: " + err.message, "error");
     }
   };
 
@@ -546,7 +546,7 @@ export default function AdminClient() {
           </div>
         </div>
         <button
-          onClick={() => logout()}
+          onClick={() => logou()}
           className="text-sm text-gray-500 hover:text-red-500 font-medium transition-colors px-3 py-1.5 rounded-lg hover:bg-red-50"
         >
           🚪 Logout
