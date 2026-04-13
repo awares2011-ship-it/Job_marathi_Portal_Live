@@ -1,4 +1,3 @@
-t
 // lib/firebase.js - Firebase Client SDK (Browser-safe)
 // ALL credentials loaded from environment variables - never hardcoded
 
