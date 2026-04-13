@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 // app/admin/page.jsx - Admin Panel (Client Component - Firebase Dynamic)
 import { useState, useEffect, useCallback } from "react";
 import {
