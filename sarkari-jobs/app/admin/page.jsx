@@ -1,5 +1,10 @@
 // app/admin/page.jsx
-if (typeof window !== "undefined") { window.t = (v) => v; }
+
+// ✅ FIX: define t globally (works in server + client)
+if (typeof globalThis !== "undefined") {
+  globalThis.t = (v) => v;
+}
+
 // ✅ Server Component — NO "use client", NO Firebase, NO hooks
 import dynamic from "next/dynamic";
 
