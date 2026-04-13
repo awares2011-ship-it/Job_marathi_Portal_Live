@@ -1,4 +1,8 @@
 "use client";
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
 // app/admin/page.jsx - Admin Panel (Client Component - Firebase Dynamic)
 import { useState, useEffect } from "react";
 import {
