@@ -1,3 +1,4 @@
+t
 // lib/firebase.js - Firebase Client SDK (Browser-safe)
 // ALL credentials loaded from environment variables - never hardcoded
 
@@ -36,11 +37,19 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// ─── Singleton App Init ───────────────────────────────────────────────────────
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
+// ─── Singleton App Init (CLIENT ONLY) ─────────────────────────────────────────
+let app;
+let db;
+let auth;
 
-export const db = getFirestore(app);
-export const auth = getAuth(app);
+if (typeof window !== "undefined") {
+  app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
+  db = getFirestore(app);
+  auth = getAuth(app);
+}
+
+// Safe exports (avoid SSR crash)
+export { app, db, auth };
 
 // Messaging only on client
 let messaging = null;
@@ -153,3 +162,5 @@ export const slugify = (text) =>
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
     .trim();
+
+
