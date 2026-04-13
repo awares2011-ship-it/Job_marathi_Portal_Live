@@ -20,8 +20,16 @@ const nextConfig = {
   // Strict mode for better React patterns
   reactStrictMode: true,
 
-  // Bundle analyzer (comment out in prod)
-  // bundleAnalyzer: { enabled: process.env.ANALYZE === 'true' },
+  // ✅ ADD: ensure clean modern build
+  swcMinify: true,
+
+  // ✅ ADD: disable caching issues during build
+  experimental: {
+    staleTimes: {
+      dynamic: 0,
+      static: 0,
+    },
+  },
 
   // Headers for security
   async headers() {
@@ -33,6 +41,9 @@ const nextConfig = {
           { key: "X-Frame-Options", value: "DENY" },
           { key: "X-XSS-Protection", value: "1; mode=block" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+
+          // ✅ ADD: disable browser caching (VERY IMPORTANT)
+          { key: "Cache-Control", value: "no-store, no-cache, must-revalidate" },
         ],
       },
     ];
@@ -47,5 +58,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
-
