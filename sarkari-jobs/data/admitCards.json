@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "slug": "mpsc-psi-admit-2026",
+    "title": "MPSC PSI प्रवेशपत्र 2026",
+    "titleEn": "MPSC PSI Admit Card 2026",
+    "department": "MPSC",
+    "examDate": "2026-06-15",
+    "downloadDate": "2026-06-01",
+    "status": "Available",
+    "downloadLink": "https://mpsc.gov.in/admit",
+    "description": "MPSC PSI 2026 परीक्षेचे प्रवेशपत्र डाउनलोड करण्यासाठी उपलब्ध आहे.",
+    "isNew": true,
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "slug": "railway-ntpc-admit-2026",
+    "title": "Railway NTPC Admit Card 2026",
+    "titleEn": "RRB NTPC Hall Ticket 2026",
+    "department": "RRB",
+    "examDate": "2026-09-01",
+    "downloadDate": "2026-08-20",
+    "status": "Coming Soon",
+    "downloadLink": "https://rrbapply.gov.in",
+    "description": "RRB NTPC 2026 परीक्षेचे प्रवेशपत्र लवकरच उपलब्ध होईल.",
+    "isNew": true,
+    "createdAt": "2026-04-01T00:00:00Z"
+  }
+]

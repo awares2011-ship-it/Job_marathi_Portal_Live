@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "slug": "mpsc-psi-result-2025",
+    "title": "MPSC PSI निकाल 2025 जाहीर",
+    "titleEn": "MPSC PSI Result 2025 Declared",
+    "department": "MPSC",
+    "resultDate": "2026-04-10",
+    "status": "Declared",
+    "downloadLink": "https://mpsc.gov.in/result",
+    "description": "MPSC पोलीस उपनिरीक्षक (PSI) 2025 परीक्षेचा निकाल जाहीर झाला आहे.",
+    "isNew": true,
+    "createdAt": "2026-04-10T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "slug": "police-constable-result-2025",
+    "title": "पोलीस शिपाई निकाल 2025",
+    "titleEn": "Maharashtra Police Constable Result 2025",
+    "department": "Maharashtra Police",
+    "resultDate": "2026-04-08",
+    "status": "Declared",
+    "downloadLink": "https://mahapolice.gov.in/result",
+    "description": "महाराष्ट्र पोलीस शिपाई 2025 परीक्षेचा निकाल जाहीर.",
+    "isNew": true,
+    "createdAt": "2026-04-08T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "slug": "upsc-main-result-2025",
+    "title": "UPSC CSE Mains Result 2025",
+    "titleEn": "UPSC Civil Services Mains Result 2025",
+    "department": "UPSC",
+    "resultDate": "2026-04-05",
+    "status": "Declared",
+    "downloadLink": "https://upsc.gov.in/result",
+    "description": "UPSC Civil Services Mains Examination 2025 चा निकाल जाहीर झाला आहे.",
+    "isNew": false,
+    "createdAt": "2026-04-05T00:00:00Z"
+  }
+]

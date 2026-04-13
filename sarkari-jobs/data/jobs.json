@@ -1,0 +1,264 @@
+[
+  {
+    "id": "1",
+    "slug": "mpsc-rajyaseva-2026",
+    "title": "MPSC राज्यसेवा परीक्षा 2026",
+    "titleEn": "MPSC State Services Examination 2026",
+    "department": "Maharashtra Public Service Commission",
+    "departmentMr": "महाराष्ट्र लोकसेवा आयोग",
+    "posts": 342,
+    "category": "MPSC",
+    "location": "Maharashtra",
+    "qualification": "Graduation (Any Stream)",
+    "qualificationMr": "कोणत्याही शाखेतील पदवी",
+    "ageMin": 19,
+    "ageMax": 38,
+    "salary": "₹41,800 – ₹1,32,300",
+    "payScale": "Pay Matrix Level 9 to 14",
+    "applicationFee": {
+      "general": 524,
+      "reserved": 324
+    },
+    "importantDates": {
+      "notificationDate": "2026-03-01",
+      "applicationStart": "2026-03-10",
+      "applicationEnd": "2026-05-15",
+      "examDate": "2026-07-20",
+      "admitCardDate": "2026-07-05"
+    },
+    "applyLink": "https://mpsconline.gov.in",
+    "officialLink": "https://mpsc.gov.in",
+    "description": "MPSC राज्यसेवा परीक्षा 2026 साठी अर्ज मागवण्यात आले आहेत. या परीक्षेद्वारे उपजिल्हाधिकारी, पोलीस उपअधीक्षक, सहायक जिल्हाधिकारी यांसह विविध पदांसाठी निवड केली जाईल.",
+    "descriptionEn": "Applications are invited for MPSC State Services Examination 2026. Selection will be made for various posts including Deputy Collector, Deputy SP, Assistant District Collector.",
+    "eligibility": [
+      "भारतीय नागरिक असणे आवश्यक",
+      "कोणत्याही मान्यताप्राप्त विद्यापीठातून पदवी",
+      "वय: 19 ते 38 वर्षे (आरक्षित वर्गांसाठी सूट)"
+    ],
+    "selection": ["Prelims (Objective)", "Mains (Descriptive)", "Interview"],
+    "syllabus": "/syllabus/mpsc-rajyaseva-2026",
+    "faq": [
+      {
+        "q": "MPSC राज्यसेवा 2026 ची पात्रता काय आहे?",
+        "a": "उमेदवाराकडे कोणत्याही मान्यताप्राप्त विद्यापीठाची पदवी असणे आवश्यक आहे."
+      },
+      {
+        "q": "अर्ज फी किती आहे?",
+        "a": "सामान्य प्रवर्गासाठी ₹524 आणि राखीव प्रवर्गासाठी ₹324 अर्ज फी आहे."
+      },
+      {
+        "q": "परीक्षा कधी होणार?",
+        "a": "प्राथमिक परीक्षा जुलै 2026 मध्ये होण्याची शक्यता आहे."
+      }
+    ],
+    "isNew": true,
+    "isTrending": true,
+    "isActive": true,
+    "views": 45230,
+    "createdAt": "2026-03-01T00:00:00Z",
+    "updatedAt": "2026-04-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "slug": "police-bharti-2026",
+    "title": "महाराष्ट्र पोलीस भरती 2026 – 12,000 जागा",
+    "titleEn": "Maharashtra Police Recruitment 2026 – 12,000 Posts",
+    "department": "Maharashtra Police",
+    "departmentMr": "महाराष्ट्र पोलीस",
+    "posts": 12000,
+    "category": "Police",
+    "location": "Maharashtra",
+    "qualification": "12th Pass",
+    "qualificationMr": "12वी उत्तीर्ण",
+    "ageMin": 18,
+    "ageMax": 28,
+    "salary": "₹25,500 – ₹81,100",
+    "payScale": "Pay Matrix Level 5 to 8",
+    "applicationFee": {
+      "general": 450,
+      "reserved": 250
+    },
+    "importantDates": {
+      "notificationDate": "2026-03-15",
+      "applicationStart": "2026-04-01",
+      "applicationEnd": "2026-06-01",
+      "examDate": "2026-08-15",
+      "admitCardDate": "2026-08-01"
+    },
+    "applyLink": "https://mahapolice.gov.in",
+    "officialLink": "https://mahapolice.gov.in",
+    "description": "महाराष्ट्र पोलीस भरती 2026 साठी 12,000 पदांसाठी अर्ज मागवण्यात आले आहेत. हे पद पोलीस शिपाई व संबंधित पदांसाठी आहे.",
+    "descriptionEn": "Maharashtra Police Recruitment 2026 for 12,000 posts of Police Constable and related positions.",
+    "eligibility": [
+      "महाराष्ट्राचा रहिवासी",
+      "12वी उत्तीर्ण",
+      "वय: 18 ते 28 वर्षे",
+      "शारीरिक तंदुरुस्ती चाचणी उत्तीर्ण"
+    ],
+    "selection": ["Written Test", "Physical Test", "Medical Test", "Document Verification"],
+    "faq": [
+      {
+        "q": "पोलीस भरती 2026 साठी किमान शैक्षणिक पात्रता काय आहे?",
+        "a": "उमेदवाराने किमान 12वी उत्तीर्ण असणे आवश्यक आहे."
+      },
+      {
+        "q": "शारीरिक चाचणीत काय असते?",
+        "a": "धावणे (1.6 km), उंची, छाती, वजन इत्यादी निकष तपासले जातात."
+      }
+    ],
+    "isNew": true,
+    "isTrending": true,
+    "isActive": true,
+    "views": 89540,
+    "createdAt": "2026-03-15T00:00:00Z",
+    "updatedAt": "2026-04-01T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "slug": "upsc-cse-2026",
+    "title": "UPSC CSE 2026 – IAS/IPS/IFS भरती",
+    "titleEn": "UPSC Civil Services Examination 2026",
+    "department": "Union Public Service Commission",
+    "departmentMr": "संघ लोक सेवा आयोग",
+    "posts": 1105,
+    "category": "UPSC",
+    "location": "All India",
+    "qualification": "Any Graduation",
+    "qualificationMr": "कोणत्याही शाखेतील पदवी",
+    "ageMin": 21,
+    "ageMax": 32,
+    "salary": "₹56,100 – ₹2,50,000",
+    "payScale": "Pay Matrix Level 10 to 18",
+    "applicationFee": {
+      "general": 100,
+      "reserved": 0
+    },
+    "importantDates": {
+      "notificationDate": "2026-02-15",
+      "applicationStart": "2026-02-15",
+      "applicationEnd": "2026-04-30",
+      "examDate": "2026-05-25",
+      "admitCardDate": "2026-05-10"
+    },
+    "applyLink": "https://upsconline.nic.in",
+    "officialLink": "https://upsc.gov.in",
+    "description": "UPSC Civil Services Examination 2026 साठी अधिसूचना जारी करण्यात आली आहे. IAS, IPS, IFS आणि इतर केंद्रीय सेवांसाठी 1105 जागा उपलब्ध आहेत.",
+    "eligibility": [
+      "भारतीय नागरिक",
+      "कोणत्याही विद्यापीठातून पदवी",
+      "वय: 21 ते 32 वर्षे",
+      "अधिकतम 6 प्रयत्न (सामान्य)"
+    ],
+    "selection": ["Prelims (CSAT)", "Mains (9 Papers)", "Personality Test"],
+    "faq": [
+      {
+        "q": "UPSC CSE 2026 साठी किती प्रयत्न मिळतात?",
+        "a": "सामान्य प्रवर्गासाठी 6 प्रयत्न, OBC साठी 9 आणि SC/ST साठी वय मर्यादेपर्यंत."
+      }
+    ],
+    "isNew": false,
+    "isTrending": true,
+    "isActive": true,
+    "views": 102300,
+    "createdAt": "2026-02-15T00:00:00Z",
+    "updatedAt": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "slug": "railway-ntpc-2026",
+    "title": "Railway NTPC Recruitment 2026 – 8,000 Posts",
+    "titleEn": "RRB NTPC Recruitment 2026",
+    "department": "Railway Recruitment Board",
+    "departmentMr": "रेल्वे भरती बोर्ड",
+    "posts": 8000,
+    "category": "Railway",
+    "location": "All India",
+    "qualification": "12th / Graduation",
+    "qualificationMr": "12वी / पदवी",
+    "ageMin": 18,
+    "ageMax": 33,
+    "salary": "₹19,900 – ₹92,300",
+    "payScale": "Pay Matrix Level 2 to 7",
+    "applicationFee": {
+      "general": 500,
+      "reserved": 250
+    },
+    "importantDates": {
+      "notificationDate": "2026-03-20",
+      "applicationStart": "2026-04-01",
+      "applicationEnd": "2026-05-20",
+      "examDate": "2026-09-01",
+      "admitCardDate": "2026-08-20"
+    },
+    "applyLink": "https://rrbapply.gov.in",
+    "officialLink": "https://indianrailways.gov.in",
+    "description": "RRB NTPC 2026 अंतर्गत 8,000 पदांसाठी भरती होणार आहे. जूनियर क्लर्क, स्टेशन मास्टर, गुड्स गार्ड यांसह विविध पदांसाठी अर्ज मागवले आहेत.",
+    "eligibility": [
+      "भारतीय नागरिक",
+      "पदानुसार 12वी किंवा पदवी",
+      "वय: 18 ते 33 वर्षे"
+    ],
+    "selection": ["CBT Stage 1", "CBT Stage 2", "Skill Test / CBAT", "Document Verification", "Medical"],
+    "faq": [
+      {
+        "q": "RRB NTPC मध्ये कोणती पदे आहेत?",
+        "a": "Junior Clerk cum Typist, Accounts Clerk cum Typist, Junior Time Keeper, Trains Clerk, Station Master, Goods Guard इत्यादी."
+      }
+    ],
+    "isNew": true,
+    "isTrending": false,
+    "isActive": true,
+    "views": 67800,
+    "createdAt": "2026-03-20T00:00:00Z",
+    "updatedAt": "2026-04-05T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "slug": "ibps-po-2026",
+    "title": "IBPS PO 2026 – 4,455 Probationary Officer Posts",
+    "titleEn": "IBPS Probationary Officer Recruitment 2026",
+    "department": "Institute of Banking Personnel Selection",
+    "departmentMr": "IBPS",
+    "posts": 4455,
+    "category": "Bank",
+    "location": "All India",
+    "qualification": "Any Graduation",
+    "qualificationMr": "कोणत्याही शाखेतील पदवी",
+    "ageMin": 20,
+    "ageMax": 30,
+    "salary": "₹36,000 – ₹63,840",
+    "payScale": "JMG Scale I",
+    "applicationFee": {
+      "general": 850,
+      "reserved": 175
+    },
+    "importantDates": {
+      "notificationDate": "2026-03-25",
+      "applicationStart": "2026-04-05",
+      "applicationEnd": "2026-05-10",
+      "examDate": "2026-10-01",
+      "admitCardDate": "2026-09-20"
+    },
+    "applyLink": "https://ibps.in",
+    "officialLink": "https://ibps.in",
+    "description": "IBPS PO 2026 अंतर्गत देशातील विविध राष्ट्रीयकृत बँकांमध्ये Probationary Officer (PO) पदांसाठी 4,455 जागा उपलब्ध आहेत.",
+    "eligibility": [
+      "कोणत्याही विद्यापीठातून पदवी (किमान 60% गुण)",
+      "वय: 20 ते 30 वर्षे",
+      "संगणक ज्ञान आवश्यक"
+    ],
+    "selection": ["Prelims (Online)", "Mains (Online)", "Interview"],
+    "faq": [
+      {
+        "q": "IBPS PO 2026 साठी किमान गुण किती लागतात?",
+        "a": "सामान्यतः पदवीत 60% गुण आवश्यक असतात, परंतु विद्यापीठानुसार बदलू शकते."
+      }
+    ],
+    "isNew": false,
+    "isTrending": true,
+    "isActive": true,
+    "views": 54120,
+    "createdAt": "2026-03-25T00:00:00Z",
+    "updatedAt": "2026-04-08T00:00:00Z"
+  }
+]

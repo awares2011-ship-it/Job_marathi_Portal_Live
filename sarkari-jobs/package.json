@@ -1,0 +1,28 @@
+{
+  "name": "sarkari-jobs-platform",
+  "version": "2.0.0",
+  "description": "Production-ready Sarkari Jobs Platform - SSG + Firebase CMS",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export-data": "node scripts/exportData.js"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "firebase": "^10.12.0",
+    "firebase-admin": "^12.2.0",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0"
+  }
+}
