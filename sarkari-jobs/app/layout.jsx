@@ -28,12 +28,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="mr" className={poppins.variable}>
       <head>
+        {/* ✅ GLOBAL FIX: define t BEFORE bundle loads */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (typeof globalThis !== "undefined") {
+                globalThis.t = function(v){ return v; };
+              }
+            `,
+          }}
+        />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+
         {/* Google AdSense */}
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (
           <script
@@ -42,12 +54,14 @@ export default function RootLayout({ children }) {
             crossOrigin="anonymous"
           />
         )}
+
         {/* Website JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }}
         />
       </head>
+
       <body className="bg-white text-gray-900 antialiased">
         <Navbar />
         <main className="min-h-screen">{children}</main>
