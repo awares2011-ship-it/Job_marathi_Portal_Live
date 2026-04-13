@@ -1,4 +1,3 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Static export capable
@@ -11,7 +10,7 @@ const nextConfig = {
       { protocol: "https", hostname: "storage.googleapis.com" },
     ],
     formats: ["image/avif", "image/webp"],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920]
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     // unoptimized: true ❌ removed (Vercel handles optimization)
   },
 
@@ -48,4 +47,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
 
