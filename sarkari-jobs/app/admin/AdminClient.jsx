@@ -1,4 +1,5 @@
 "use client";
+const t = (v) => v;
 // app/admin/AdminClient.jsx
 // ✅ Client Component — All Firebase, hooks, UI logic lives here
 
