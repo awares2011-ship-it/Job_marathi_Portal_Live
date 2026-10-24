@@ -88,15 +88,18 @@ export const jobPostingSchema = (job) => ({
       addressCountry: "IN",
     },
   },
-  baseSalary: {
-    "@type": "MonetaryAmount",
-    currency: "INR",
-    value: {
-      "@type": "QuantitativeValue",
-      value: job.salary,
-      unitText: "MONTH",
+  ...(job.salaryMin && {
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "INR",
+      value: {
+        "@type": "QuantitativeValue",
+        minValue: job.salaryMin,
+        maxValue: job.salaryMax || job.salaryMin,
+        unitText: "MONTH",
+      },
     },
-  },
+  }),
   educationRequirements: job.qualification,
   url: `${SITE_URL}/jobs/${job.slug}`,
 });

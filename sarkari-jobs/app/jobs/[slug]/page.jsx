@@ -75,6 +75,9 @@ export default async function JobDetailPage({ params }) {
                     {job.title}
                   </h1>
                   <p className="text-gray-500 font-medium">{job.department}</p>
+                  <p className="text-xs text-gray-400 mt-2">
+                    शेवटचे अपडेट: {formatDateEn(job.updatedAt || job.createdAt)} · स्रोत: अधिकृत विभागीय वेबसाइट
+                  </p>
                 </div>
               </div>
 
