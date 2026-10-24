@@ -67,7 +67,7 @@ export function ResultCard({ result }) {
 
 // components/AdBanner.jsx - AdSense placeholder
 export function AdBanner({ slot = "auto", format = "auto", className = "", height = 90 }) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-1607968585289432";
 
   if (!adsenseId) {
     // Show placeholder in development

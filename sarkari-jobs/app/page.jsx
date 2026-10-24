@@ -25,10 +25,10 @@ const categories = [
 ];
 
 const stats = [
-  { label: "Active Jobs", value: "30,000+", icon: "💼" },
-  { label: "Daily Visitors", value: "1 Lakh+", icon: "👥" },
-  { label: "States Covered", value: "28+", icon: "🗺️" },
-  { label: "Years Serving", value: "5+", icon: "⭐" },
+  { label: "Verified listings", value: `${jobsData.length}`, icon: "💼" },
+  { label: "Official links", value: "100%", icon: "🔗" },
+  { label: "Update cycle", value: "Daily", icon: "🗓️" },
+  { label: "Language support", value: "मराठी + English", icon: "🌐" },
 ];
 
 export default function HomePage() {
@@ -287,6 +287,29 @@ export default function HomePage() {
             {latestBlogs.map((blog) => (
               <BlogCard key={blog.id} blog={blog} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── EDITORIAL TRUST SECTION ─────────────────────────────────── */}
+      <section className="section">
+        <div className="container-main">
+          <div className="grid lg:grid-cols-3 gap-6">
+            <div className="lg:col-span-2 card p-6 md:p-8">
+              <p className="text-sm font-bold uppercase tracking-wide text-primary-600 mb-2">आमची संपादकीय पद्धत</p>
+              <h2 className="text-2xl font-extrabold text-gray-900 mb-3">अधिकृत माहिती, स्पष्ट मार्गदर्शन</h2>
+              <p className="text-gray-600 leading-relaxed mb-5">प्रत्येक भरतीच्या पेजवर आम्ही विभागाचे नाव, पदसंख्या, पात्रता, शुल्क, महत्त्वाच्या तारखा आणि अधिकृत अर्जाची लिंक एकत्र देतो. अर्ज करण्यापूर्वी उमेदवारांनी अधिकृत जाहिरात आणि विभागाच्या वेबसाइटवरील अंतिम सूचना नक्की तपासाव्यात.</p>
+              <div className="grid sm:grid-cols-3 gap-4 text-sm">
+                <div className="rounded-xl bg-blue-50 p-4"><strong className="block text-gray-900 mb-1">1. शोध</strong><span className="text-gray-600">अधिकृत विभागीय स्रोत तपासा</span></div>
+                <div className="rounded-xl bg-green-50 p-4"><strong className="block text-gray-900 mb-1">2. पडताळणी</strong><span className="text-gray-600">तारीख व पात्रता जुळवा</span></div>
+                <div className="rounded-xl bg-orange-50 p-4"><strong className="block text-gray-900 mb-1">3. अर्ज</strong><span className="text-gray-600">फक्त official link वापरा</span></div>
+              </div>
+            </div>
+            <div className="card p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-3">उमेदवारांसाठी सूचना</h2>
+              <ul className="space-y-3 text-sm text-gray-600 leading-relaxed"><li>• कोणालाही पैसे किंवा OTP देऊ नका.</li><li>• बनावट जाहिरातींपासून सावध रहा.</li><li>• शेवटच्या तारखेपूर्वी अर्ज करा.</li><li>• अधिकृत PDF जतन करून ठेवा.</li></ul>
+              <Link href="/about" className="inline-block mt-5 text-primary-600 font-semibold text-sm">आमच्याबद्दल अधिक जाणून घ्या →</Link>
+            </div>
           </div>
         </div>
       </section>

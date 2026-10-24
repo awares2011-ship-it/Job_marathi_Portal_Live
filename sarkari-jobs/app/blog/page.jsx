@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata = {
   title: "Blog – MPSC Tips, Study Guide, Career Advice | SarkariJobs",
   description:
-    "Read expert articles on MPSC preparation, government job tips, career advice and exam strategies. 800+ word SEO articles.",
+    "Practical Marathi and English guides for MPSC preparation, government job applications, exam strategy, documents, fees and career decisions in 2026.",
   alternates: { canonical: "/blog" },
 };
 

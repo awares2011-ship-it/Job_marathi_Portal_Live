@@ -46,14 +46,12 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
 
-        {/* Google AdSense */}
-        {process.env.NEXT_PUBLIC_ADSENSE_ID && (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
-            crossOrigin="anonymous"
-          />
-        )}
+        {/* Google AdSense publisher script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1607968585289432"
+          crossOrigin="anonymous"
+        />
 
         {/* Website JSON-LD */}
         <script

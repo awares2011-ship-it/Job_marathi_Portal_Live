@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata = {
   title: "Latest Govt Jobs 2026 – MPSC, Police, Railway, Bank | SarkariJobs",
   description:
-    "Browse 30,000+ latest Government Jobs 2026. Filter by MPSC, Police, Railway, Bank, UPSC. Apply online with direct links. Updated daily.",
+    "Find verified 2026 government job notifications with vacancies, eligibility, fees, dates and official application links for MPSC, Police, Railway, Bank and UPSC exams.",
   keywords:
     "सरकारी नोकरी 2026, MPSC Jobs, Police Bharti, Railway Jobs, Bank Jobs, Maharashtra Govt Jobs",
   alternates: { canonical: "/jobs" },
