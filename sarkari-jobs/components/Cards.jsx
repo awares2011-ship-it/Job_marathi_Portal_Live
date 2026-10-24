@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 // components/BlogCard.jsx
 import Link from "next/link";
 import { formatDateEn } from "@/lib/utils";
@@ -69,6 +70,15 @@ export function ResultCard({ result }) {
 export function AdBanner({ slot = "auto", format = "auto", className = "", height = 90 }) {
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-1607968585289432";
 
+  useEffect(() => {
+    try {
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
+    } catch {
+      // AdSense may not be available in local previews or blocked by extensions.
+    }
+  }, []);
+
   if (!adsenseId) {
     // Show placeholder in development
     return (
@@ -90,11 +100,6 @@ export function AdBanner({ slot = "auto", format = "auto", className = "", heigh
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
-        }}
       />
     </div>
   );
